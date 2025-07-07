@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nöbetim – Support</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #212529;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #122f4d;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 2rem;
+    }
+
+    .text-section {
+      flex: 1 1 400px;
+      max-width: 600px;
+    }
+
+    .screenshot {
+      flex: 1 1 300px;
+      max-width: 350px;
+    }
+
+    .screenshot img {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.95rem;
+      color: #6c757d;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Nöbetim – Support
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="text-section">
+        <p><strong>Nöbetim</strong> is an intelligent scheduling app designed for healthcare professionals, especially doctors working in hospitals. Manually preparing night shift schedules is often time-consuming and unfair. Nöbetim solves this by combining mathematical optimization with a user-friendly mobile interface.</p>
+
+        <p>The app allows administrators to create scheduling rooms, define shift requirements, and invite doctors. Doctors can easily set their shift preferences, and once submitted, the system instantly generates an optimized and fair schedule.</p>
+
+        <p>Powered by Firebase and Python backend technologies, Nöbetim delivers real-time updates, secure login, and in-app notifications. Users can modify preferences, regenerate schedules, and communicate changes without delays.</p>
+
+        <ul>
+          <li>✅ AI-optimized scheduling</li>
+          <li>✅ Role-based access for admins and doctors</li>
+          <li>✅ Real-time updates with Firebase</li>
+          <li>✅ Secure login with Firebase Authentication</li>
+          <li>✅ Push notifications for schedule updates</li>
+          <li>✅ Clean and intuitive Flutter UI</li>
+        </ul>
+
+        <p>Whether you're managing a team of doctors or tired of Excel-based planning, Nöbetim is built to make hospital shift management fast, fair, and stress-free.</p>
+
+        <p>Nöbetim is currently tailored for healthcare use but can be extended to schools, emergency services, or any industry with similar scheduling needs.</p>
+
+        <p><strong>Need help?</strong> Email us at <a href="mailto:infoappwide@gmail.com">infoappwide@gmail.com</a></p>
+      </div>
+
+      <div class="screenshot">
+        <img src="screenshot.png" alt="App Screenshot" />
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Nöbetim | All rights reserved.
+  </footer>
+</body>
+</html>
